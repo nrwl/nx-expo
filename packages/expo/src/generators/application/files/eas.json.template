@@ -1,0 +1,24 @@
+{
+  "build": {
+    "production": {
+      "env": {
+        "ENTRY_FILE": "<%= easBuildPath %>/<%= appProjectRoot %>/index.js"
+      },
+      "android": {
+        "buildType": "app-bundle"
+      }
+    },
+    "development": {
+      "env": {
+        "ENTRY_FILE": "<%= easBuildPath %>/<%= appProjectRoot %>/index.js"
+      },
+      "android": {
+        "developmentClient": true,
+        "distribution": "internal"
+      }
+    }
+  },
+  "cli": {
+    "version": ">= 0.38.1"
+  }
+}
