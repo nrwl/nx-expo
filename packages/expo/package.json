@@ -1,9 +1,10 @@
 {
   "name": "@nrwl/expo",
   "version": "0.0.1",
-  "description": "React Native Plugin for Nx",
+  "description": "Expo Plugin for Nx",
   "keywords": [
     "Monorepo",
+    "Expo",
     "React",
     "Web",
     "Jest",

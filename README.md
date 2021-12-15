@@ -31,7 +31,7 @@ There are also many [community plugins](https://nx.dev/community) you could add.
 
 ## Generate an application
 
-Run `nx g @nrwl/react:app my-app` to generate an application.
+Run `nx g @nrwl/expo:app my-app` to generate an application.
 
 > You can use any of the plugins above to generate applications as well.
 
@@ -39,11 +39,24 @@ When using Nx, you can create multiple applications and libraries in the same wo
 
 ## Generate a library
 
-Run `nx g @nrwl/react:lib my-lib` to generate a library.
+Run `nx g @nrwl/expo:lib my-lib` to generate a library.
 
 > You can also use any of the plugins above to generate libraries as well.
 
 Libraries are shareable across libraries and applications. They can be imported from `@nx-expo/mylib`.
+
+### Serving Application
+
+- Run `nx start myapp` to start the newly generated application!
+- Run `nx test myapp` to test it.
+- Run `nx e2e myapp-e2e` to run e2e tests for it.
+- Run `nx ensure-symlink myapp` to ensure workspace node_modules is symlink under app's node_modules folder.
+- Run `nx sync-deps myapp` to update package.json with project dependencies. For example: `nx sync-deps myapp --include=react-native-gesture-handler,react-native-safe-area-context`
+- Run `nx build-ios myapp` to build and sign a standalone IPA for the Apple App Store.
+- Run `nx build-android` to build and sign a standalone APK or App Bundle for the Google Play Store.
+- Run `nx build-status` to get the status of the latest build for the project.
+- Run `nx run-ios` to run the iOS app binary locally.
+- Run `nx-run-android` to run the Android app binary locally.
 
 ## Development server
 
