@@ -1442,7 +1442,7 @@
     webpack-merge "^5.8.0"
     webpack-node-externals "^3.0.0"
 
-"@nrwl/nx-plugin@^13.3.4":
+"@nrwl/nx-plugin@13.3.4":
   version "13.3.4"
   resolved "https://registry.yarnpkg.com/@nrwl/nx-plugin/-/nx-plugin-13.3.4.tgz#008a5ae1661fba792ab8197d58f6c661677373a4"
   integrity sha512-uY/VeAG0rtik/viKditQ71MgFiZFyq8t1ogNdM9aj/FbQQkT3ROqceVieAGEU3QLXletcmhmrQIXAj7MhwZMAw==
@@ -1456,7 +1456,7 @@
     tslib "^2.3.0"
     yargs "15.4.1"
 
-"@nrwl/react@13.3.4", "@nrwl/react@^13.99.0":
+"@nrwl/react@13.3.4":
   version "13.3.4"
   resolved "https://registry.yarnpkg.com/@nrwl/react/-/react-13.3.4.tgz#157b4ab1b48522774dcb5be3aec45218ab01c539"
   integrity sha512-IRGS9kObB3Tczi6HdjHJmeJ1xAizOBS8tIaQgthXbfvUt+BelLsJriz2+pxrJw2lnFVjnzvEC4FhvEN2f8Eszw==
@@ -8060,9 +8060,9 @@ rc@^1.2.8:
     strip-json-comments "~2.0.1"
 
 react-devtools-core@^4.19.1:
-  version "4.22.0"
-  resolved "https://registry.yarnpkg.com/react-devtools-core/-/react-devtools-core-4.22.0.tgz#f5930091e8529fae3f0ae12725d1ea2834a0b7d6"
-  integrity sha512-OYY2FO+z+w/N7kVZr2x0rVOD2QCGZoRThbs1diJ2Az0rqtMxyk0JJvsr7FS9+b5CJkWQ2Ro810BCnySygOt2pA==
+  version "4.22.1"
+  resolved "https://registry.yarnpkg.com/react-devtools-core/-/react-devtools-core-4.22.1.tgz#b276d42f860bedc373c9b3c0f5f96734318dd453"
+  integrity sha512-pvpNDHE7p0FtcCmIWGazoY8LLVfBI9sw0Kf10kdHhPI9Tzt3OG/qEt16GrAbE0keuna5WzX3r1qPKVjqOqsuUg==
   dependencies:
     shell-quote "^1.6.1"
     ws "^7"
