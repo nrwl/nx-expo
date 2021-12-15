@@ -50,34 +50,7 @@ if (!parsedArgs.local) {
 }
 
 function updatePackageJsonFiles(parsedVersion, isLocal) {
-  let pkgFiles = [
-    'package.json',
-    'build/npm/create-nx-workspace/package.json',
-    'build/npm/create-nx-plugin/package.json',
-    'build/npm/jest/package.json',
-    'build/npm/cypress/package.json',
-    'build/npm/storybook/package.json',
-    'build/npm/angular/package.json',
-    'build/npm/react/package.json',
-    'build/npm/next/package.json',
-    'build/npm/gatsby/package.json',
-    'build/npm/web/package.json',
-    'build/npm/node/package.json',
-    'build/npm/express/package.json',
-    'build/npm/nest/package.json',
-    'build/npm/workspace/package.json',
-    'build/npm/cli/package.json',
-    'build/npm/tao/package.json',
-    'build/npm/devkit/package.json',
-    'build/npm/eslint-plugin-nx/package.json',
-    'build/npm/linter/package.json',
-    'build/npm/nx-plugin/package.json',
-    'build/npm/nx/package.json',
-    'build/npm/react-native/package.json',
-    'build/npm/expo/package.json',
-    'build/npm/detox/package.json',
-    'build/npm/js/package.json',
-  ];
+  let pkgFiles = ['package.json', 'build/npm/expo/package.json'];
   if (isLocal) {
     pkgFiles = pkgFiles.filter((f) => f !== 'package.json');
   }

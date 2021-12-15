@@ -1,8 +1,4 @@
-import {
-  runNxCommandAsync,
-  uniq,
-  updateFile
-} from '@nrwl/nx-plugin/testing';
+import { runNxCommandAsync, uniq, updateFile } from '@nrwl/nx-plugin/testing';
 
 describe('Expo', () => {
   let proj: string;

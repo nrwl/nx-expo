@@ -11,4 +11,6 @@ module.exports = {
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
   coverageDirectory: '../../coverage/e2e/expo-e2e',
+  setupFilesAfterEnv: ['<rootDir>/test-setup.ts'],
+  testTimeout: 600000,
 };

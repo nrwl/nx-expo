@@ -7,9 +7,7 @@
     "build": "nx build",
     "test": "nx test",
     "format": "nx format",
-    "nx-release": "./scripts/nx-release.js",
-    "depcheck": "ts-node -P ./scripts/tsconfig.scripts.json ./scripts/depcheck",
-    "local-registry": "./scripts/local-registry.sh"
+    "nx-release": "./scripts/nx-release.js"
   },
   "private": true,
   "dependencies": {
@@ -24,7 +22,7 @@
     "@nrwl/linter": "13.3.4",
     "@nrwl/node": "13.3.4",
     "@nrwl/nx-plugin": "^13.3.4",
-    "@nrwl/react": "^13.3.4",
+    "@nrwl/react": "^13.99.0",
     "@nrwl/tao": "13.3.4",
     "@nrwl/workspace": "13.3.4",
     "@types/jest": "27.0.2",
