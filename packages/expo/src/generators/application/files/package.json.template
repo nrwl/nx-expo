@@ -7,6 +7,7 @@
     "@testing-library/react-native": "*",
     "react-native": "*",
     "expo": "*",
+    "expo-dev-client": "*",
     "expo-status-bar": "*",
     "expo-splash-screen": "*",
     "expo-structured-headers": "*",

@@ -28,6 +28,7 @@ import {
   jestExpoVersion,
   reactNativeSvgTransformerVersion,
   reactNativeSvgVersion,
+  expoDevClientVersion,
 } from '../../utils/versions';
 import { runTasksInSerial } from '@nrwl/workspace/src/utilities/run-tasks-in-serial';
 import { addGitIgnoreEntry } from './lib/add-git-ignore-entry';
@@ -69,6 +70,7 @@ export function updateDependencies(host: Tree) {
       'react-dom': reactVersion,
       'react-native': reactNativeVersion,
       expo: expoVersion,
+      'expo-dev-client': expoDevClientVersion,
       'expo-status-bar': expoStatusBarVersion,
       'react-native-web': reactNativeWebVersion,
       '@expo/metro-config': expoMetroConfigVersion,
