@@ -1,7 +1,0 @@
-{
-  "version": 2,
-  "projects": {
-    "expo": "packages/expo",
-    "expo-e2e": "e2e/expo-e2e"
-  }
-}
